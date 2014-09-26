@@ -1,0 +1,22 @@
+.qualifySliderContainer .submitButton { width:120px; height:30px; background: url('/Style%20Library/cis/buttonCheckResults.png') no-repeat top left; color:transparent; line-height:0; font-size:0; border:0; cursor:pointer; float:right; }
+
+.qualifySliderContainer .ui-slider-horizontal { height:0; }
+.qualifySliderContainer .ui-slider-horizontal .ui-slider-handle { top:-6px; margin-left:-2px }
+.qualifySliderContainer .ui-slider .ui-slider-handle { width:5px; height:10px; }
+.qualifySliderContainer .ui-state-default, .qualifySliderContainer .ui-widget-content .ui-state-default, .qualifySliderContainer .ui-widget-header .ui-state-default { border:1px solid #aaaaaa; background:#aaaaaa; }
+
+.qualifySliderContainer .sliderRow { margin: 1em 0; }
+
+.qualifySliderContainer .qualifyIcon { display:none; }
+
+.qualifySliderContainer .sliderRow label { width:39%; display:inline-block; margin-right:1%; }
+
+.qualifySliderContainer .sliderRow .sliderHolder { width:60%; display:inline-block; }
+.qualifySliderContainer .sliderRow .sliderHolder span { width:7%; display:inline-block; font-size:.6em; text-align:center; }
+.qualifySliderContainer .sliderRow .slider { width: 76%; display:inline-block; }
+
+.qualifySliderContainer .valueDisplay { border: 0; font-weight: bold; width: 30px; font-size: 1.1em; text-align: center; cursor: default; padding: 1px; }
+
+.qualifySliderContainer .hidden { display:none; }
+
+.qualifySliderContainer .visible { display:inherit; }

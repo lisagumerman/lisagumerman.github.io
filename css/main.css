@@ -1,0 +1,64 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html, button, input, select, textarea {color: black;}
+html {font-size: 1em;line-height: 1.4;}
+::-moz-selection {background: #b3d4fc;text-shadow: none;}
+::selection {background: #b3d4fc;text-shadow: none;}
+hr {display: block;height: 1px;border: 0;border-top: 1px solid #ccc;margin: 1em 0;padding: 0;}
+audio, canvas, img, video {vertical-align: middle;}
+fieldset {border: 0;margin: 0;padding: 0;}
+textarea {resize: vertical;}
+.browsehappy {margin: 0.2em 0;background: #ccc;color: #000;padding: 0.2em 0;}
+
+/* ===== Author's custom styles ===== */
+
+h1, h2, h3, h4, h5, h6 { margin:0; }
+a img { border:0; }
+
+body {background:url(../img/bg-texture.png); font-family:liberation_sansregular, Liberation Sans, Arial, sans-serif;width:100%;height:100%;}
+h1, h2, h3, .clue, .button {font-family:oswaldbook}
+
+h1#logo, section, .popup { -moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box; width:250px; height:250px; margin:25px; float:left; }
+
+h1#logo img {max-width:100%;margin-top:75px}
+a.box { text-decoration:none !important; width:90%; height:90%;display:block; padding:5%; text-align:center; position:relative;}
+a.box.blue, .blue .popup {background:#6493b5;}
+a.box.orange, .orange .popup {background:#e98300;}
+a.box.green, .green .popup {background:#a2ad00}
+a.box h1 { color:white; text-align:left;}
+span.clue { text-align:right; display:block; text-transform:lowercase; position: absolute;right: 0;bottom: 0;}
+[aria-hidden="true"] {display:none;}
+
+/*POPUP styles */
+#fade {display:none;opacity:.5;position:absolute;top:0; left:0;width:100%;height:100%;z-index:10}
+.active-popup {position:absolute;top:100; width:1150px; height:850px; left:100;z-index:100}
+.popup {padding:50px; color:black;}
+h2 { color:white; }
+h3 {}
+.button { color:white; background-color:#565a5c; }
+
+iframe {height:390px; width:640px; }
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (min-width: 35em) {}
+@media print,(-o-min-device-pixel-ratio: 5/4),(-webkit-min-device-pixel-ratio: 1.25),(min-resolution: 120dpi) {}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.ir {background-color: transparent;border: 0;overflow: hidden;*text-indent: -9999px;}
+.ir:before {content: "";display: block;width: 0;height: 150%;}
+.hidden {display: none !important;visibility: hidden;}
+.visuallyhidden {border: 0;clip: rect(0 0 0 0);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {clip: auto;height: auto;margin: 0;overflow: visible;position: static;width: auto;}
+.invisible {visibility: hidden;}
+.clearfix:before, .clearfix:after {content: " ";display: table;}
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1;}
