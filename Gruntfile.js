@@ -1,7 +1,17 @@
 module.exports = function(grunt) {
 
     grunt.initConfig({
-        pkg: grunt.file.readJSON('package.json')
+        pkg: grunt.file.readJSON('package.json'),
+
+        connect: {
+            server: {
+                options: {
+                    port: 8081,
+                    base: '.',
+                    keepalive:true
+                }
+            }
+        }
 
 //        less : {
 //            development : {
