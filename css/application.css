@@ -27,6 +27,7 @@ a.box:hover {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 500;
   display: none;
+  cursor: pointer;
 }
 .popup-modal {
   display: none;
