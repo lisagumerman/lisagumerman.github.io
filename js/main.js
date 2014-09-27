@@ -30,7 +30,7 @@ function closeDialog(owner) {
     owner.fadeOut(400, function () {
         owner.removeClass('popup-modal');
     });
-}
+}i
 
 
 
