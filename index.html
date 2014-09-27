@@ -247,18 +247,23 @@
                 <span class="clue">interactive feature</span>
             </a>
             <div id="big-backyard-popup" class="popup green" aria-hidden="true">
-                <h2>Big Backyard</h2>
-                <p>Some text about what the Big Backyard is, and about how you can click on the critters to hear the noises they make. Lorem ipsum: Yes, well, it's a brilliant noise. I love that noise. Frightened people. Give me a Dalek any day. Come along, Pond! Overconfidence, this, and a small screwdriver. I’m absolutely sorted.Oh, I always rip out the last page of a book. Then it doesn't have to end. I hate endings!</p>
-                <div id="big-backyard-content" class="popup-content">
-                    <h3>Hear the critters of the area</h3>
-                    <div id="big-backyard-interactive">
-						<div class="fifth"><a href="audio/backyard-bluejay.mp3"><img src="img/backyard-bluejay.jpg" alt="" /><span>Blue jay</span></a></div>
-                        <div class="fifth"><a href="audio/backyard-broadwingedhawk.mp3"><img src="img/backyard-broadwingedhawk.jpg" alt="" /><span>Broadwinged hawk</span></a></div>
-                        <div class="fifth"><a href="audio/backyard-chipmunk.mp3"><img src="img/backyard-chipmunk.jpg" alt="" /><span>Chipmunk</span></a></div>
-                        <div class="fifth"><a href="audio/backyard-elk.mp3"><img src="img/backyard-elk.jpg" alt="" /><span>Elk</span></a></div>
-                        <div class="fifth"><a href="audio/backyard-prairiedog.mp3"><img src="img/backyard-prairiedog.jpg" alt="" /><span>Prairie dog</span></a></div>
-                        <div class="clear"></div>
-					</div>
+                <div class="popup-content">
+
+                    <h2>Big Backyard</h2>
+                    <p>Some text about what the Big Backyard is, and about how you can click on the critters to hear the noises they make. Lorem ipsum: Yes, well, it's a brilliant noise. I love that noise. Frightened people. Give me a Dalek any day. Come along, Pond! Overconfidence, this, and a small screwdriver. I’m absolutely sorted.Oh, I always rip out the last page of a book. Then it doesn't have to end. I hate endings!</p>
+                    <div id="big-backyard-content" class="popup-content">
+                        <div style="float: left; border:1px solid red;">
+                            <h3>Hear the critters of the area</h3>
+                        </div>
+                        <div id="big-backyard-interactive" style="float:right; clear:both; border:1px solid blue;">
+                            <div class="fifth"><a onclick="playSound('audio/backyard-bluejay.mp3');"><img src="img/backyard-bluejay.jpg" alt="" /><span>Blue jay</span></a></div>
+                            <div class="fifth"><a onclick="playSound('audio/backyard-broadwingedhawk.mp3');"><img src="img/backyard-broadwingedhawk.jpg" alt="" /><span>Broadwinged hawk</span></a></div>
+                            <div class="fifth"><a onclick="playSound('audio/backyard-chipmunk.mp3');"><img src="img/backyard-chipmunk.jpg" alt="" /><span>Chipmunk</span></a></div>
+                            <div class="fifth"><a onclick="playSound('audio/backyard-elk.mp3');"><img src="img/backyard-elk.jpg" alt="" /><span>Elk</span></a></div>
+                            <div class="fifth"><a onclick="playSound('audio/backyard-prairiedog.mp3')";><img src="img/backyard-prairiedog.jpg" alt="" /><span>Prairie dog</span></a></div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
