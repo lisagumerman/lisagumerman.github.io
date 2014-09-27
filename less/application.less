@@ -1,3 +1,8 @@
+.metro-ui-region {
+  @import (less) "metro.css";
+  @import (less) "metro-responsive.css";
+}
+
 @blue: #6493b5;
 @green: #a2ad00;
 @orange: #e98300;
@@ -108,4 +113,28 @@ svg > * {
   margin-right:auto;
 }
 
+
+.mudwagon {
+  width: 500px;
+  margin: 130px auto 0 auto;
+
+  div#mud-wagon-text {
+    .rotation(90deg);
+  }
+
+  div.slider {
+    margin : 20px;
+
+  }
+}
+.transform(...) {
+  -webkit-transform: @arguments;
+  -moz-transform: @arguments;
+  -o-transform: @arguments;
+  -ms-transform: @arguments;
+  transform: @arguments;
+}
+.rotation(@deg:5deg){
+  .transform(rotate(@deg));
+}
 
