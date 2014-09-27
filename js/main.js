@@ -8,7 +8,17 @@ $(document).ready(function () {
     $('#joes').click(function () {
         playSound("audio/bigdrum-1.mp3");
     });
+
+    initializeMudwagon();
+
+
 });
+
+function initializeMudwagon() {
+    $("#mudwagon-wheel-1").slider();
+    $("#mudwagon-wheel-2").slider();
+    $("#mudwagon-wheel-3").slider();
+}
 
 function popup() {
     var self = $(this).find('~div:first');
@@ -44,8 +54,8 @@ $(document).ready(function () {
 //}
 //$('body').on(click, '.close, #fade', function(){
 //     popup(".active-popup");
+//$("#the-archive-slideshow").flexslider({ animationLoop: false, slideshow: false, controlNav: false, prevText: "<<", nextText: ">>" });
 
-    $("#the-archive-slideshow").flexslider({ animationLoop: false, slideshow: false, controlNav: false, prevText: "<<", nextText: ">>" });
 });
 //function popup(section) {
 //     $("#fade").fadeToggle();
