@@ -13,6 +13,14 @@ function popup() {
     self.addClass('popup-modal');
     self.fadeIn();
     $("#fade").fadeIn();
+
+    setupMudwagon();
+}
+
+function setupMudwagon() {
+    $("#mudwagon-slider-1").slider();
+    $("#mudwagon-slider-2").slider();
+    $("#mudwagon-slider-3").slider();
 }
 
 function closeCurrent() {
