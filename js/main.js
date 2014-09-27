@@ -5,9 +5,7 @@ $(document).ready(function () {
     });
     $('a.box').on('click', popup);
     $('a.close').on('click', closeCurrent);
-    $('#joes').click(function () {
-        playSound("audio/bigdrum-1.mp3");
-    });
+ 
 });
 
 function popup() {

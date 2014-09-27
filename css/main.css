@@ -27,23 +27,27 @@ a.box { text-decoration:none !important; width:90%; height:90%;display:block; pa
 a.box.blue {background:#6493b5;} /*, .blue .popup*/
 a.box.orange {background:#e98300;} /*, .orange .popup*/
 a.box.green {background:#a2ad00} /*, .green .popup*/
-a.box h1 { color:white; text-align:left;}
-span.clue { text-align:right; display:block; text-transform:lowercase; position: absolute;right: 0;bottom: 0;}
+a.box h1 { color:white; text-align:left; font-size:1.9}
+img.icon { margin-top:40px; }
+span.clue { text-align:right; display:block; text-transform:lowercase; position: absolute;right: 10px;bottom: 10px; font-size:1.75em}
 [aria-hidden="true"] {display:none;}
 
 /*POPUP styles */
-/*#fade {display:none;opacity:.5;position:absolute;top:0; left:0;width:100%;height:100%;z-index:10}
-.active-popup {position:absolute;top:100; width:1150px; height:850px; left:100;z-index:100}
-.popup {padding:50px; color:black;}*/
+.popup {padding:50px; color:black;}
 h2 { color:white; }
-h3 { -moz-transform: rotate(270deg); -webkit-transform: rotate(270deg); -o-transform: rotate(270deg); -ms-transform: rotate(270deg); transform: rotate(270deg); }
+h3 { -moz-transform: rotate(270deg); -webkit-transform: rotate(270deg); -o-transform: rotate(270deg); -ms-transform: rotate(270deg); transform: rotate(270deg); display:inline-block; display: inline-block; position: absolute; bottom: 300px; font-size: 1.5em; }
 .button { color:white; background-color:#565a5c; }
 
 iframe {height:390px; width:640px; }
 
 .fifth {padding:0 2%; width:20%; float:left;}
 
-#the-archive-slideshow img {float:left; margin-right:20px; margin:auto !important; }
+#the-archive-slideshow { width:70%; margin:0 auto; }
+#the-archive-slideshow img {float:left; margin-right:20px; width:auto !important; }
+#the-archive-slideshow .flexslider:hover .flex-prev, #the-archive-slideshow  .flex-direction-nav .flex-prev {left:0; opacity:1}
+#the-archive-slideshow .flexslider:hover .flex-next, #the-archive-slideshow  .flex-direction-nav .flex-next { right:0; opacity:1}
+#the-archive-slideshow  .flex-direction-nav .flex-prev:hover, #the-archive-slideshow  .flex-direction-nav .flex-next:hover { opacity:.7;}
+.flex-direction-nav a.flex-next:before, .flex-direction-nav a.flex-prev:before { content: "" }
 
 
 
