@@ -14,11 +14,12 @@ textarea {resize: vertical;}
 
 h1, h2, h3, h4, h5, h6 { margin:0; }
 a img { border:0; }
+.clear {clear:both;}
 
 body {background:url(../img/bg-texture.png); font-family:liberation_sansregular, Liberation Sans, Arial, sans-serif;width:100%;height:100%;}
 h1, h2, h3, .clue, .button {font-family:oswaldbook}
 
-h1#logo, section, .popup { -moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box; width:250px; height:250px; margin:25px; float:left; }
+h1#logo, section, .popup, .fifth { -moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box; width:250px; height:250px; margin:25px; float:left; }
 
 h1#logo img {max-width:100%;margin-top:75px}
 a.box { text-decoration:none !important; width:90%; height:90%;display:block; padding:5%; text-align:center; position:relative;}
@@ -39,7 +40,7 @@ h3 {}
 
 iframe {height:390px; width:640px; }
 
-
+.fifth {padding:0 2%; width:20%; float:left;}
 
 
 
