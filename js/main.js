@@ -1,10 +1,8 @@
 $(document).ready(function () {
     $("#fade").on('click', function () {
-//        var owner = $(document).find('div.popup-modal:first');
-//        closeDialog(owner);
-        $("#joes").css({
-            "fill": "red"
-        });
+        var owner = $(document).find('div.popup-modal:first');
+        closeDialog(owner);
+   
     });
     $('a.box').on('click', popup);
     $('a.close').on('click', closeCurrent);
@@ -30,7 +28,7 @@ function closeDialog(owner) {
     owner.fadeOut(400, function () {
         owner.removeClass('popup-modal');
     });
-}i
+}
 
 
 
