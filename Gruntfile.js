@@ -11,22 +11,44 @@ module.exports = function(grunt) {
                     keepalive:true
                 }
             }
-        }
+        },
 
-//        less : {
-//            development : {
-//
-//            },
-//            production : {
-//                options : [ {
-//                    paths: 'less'
-//                }],
-//                files : {
-//                    'css/main.css' :
-//                        'less/layout.less'
-//                }
-//            }
-//        },
+        less : {
+            development : {
+
+            },
+            production : {
+                options : [ {
+                    paths: 'less'
+                }],
+                files : {
+                    'css/application.css' :
+                        'less/application.less'
+                }
+            }
+        },
+
+        bowercopy : {
+            options : {
+                srcPrefix : 'libs'
+            },
+            css : {
+                options : {
+                    destPrefix : 'less'
+                },
+                files : {
+                    'less/metro.css' : 'metro-ui-css/css/metro-bootstrap.css',
+                    'less/metro-responsive.css' : 'metro-ui-css/css/metro-bootstrap-responsive.css'
+
+                }
+            }
+
+        },
+
+        watch : {
+            files :'less/*',
+            tasks: ['less']
+        }
 //
 //
 //        uglify : {
