@@ -2,7 +2,6 @@ $(document).ready(function () {
     $("#fade").on('click', function () {
         var owner = $(document).find('div.popup-modal:first');
         closeDialog(owner);
-   
     });
     $('a.box').on('click', popup);
     $('a.close').on('click', closeCurrent);
