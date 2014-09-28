@@ -48,6 +48,9 @@ a.box:hover {
   z-index: 1000;
   border: none;
 }
+img#whackRegion {
+  cursor: crosshair;
+}
 .blue {
   background-color: #6493b5 !important;
 }

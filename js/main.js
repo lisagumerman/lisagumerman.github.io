@@ -35,6 +35,13 @@ function closeDialog(owner) {
     });
 }
 
+var whack = {
+    count: 0,
+    doWhack: function() {
+        $('#whackRegion').attr('src', "img/whack/WhackAPrairieDawg0" + this.count++ % 6 + ".png");
+    }
+
+};
 
 
 function playSound(audioFile) {
