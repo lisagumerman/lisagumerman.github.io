@@ -5,7 +5,10 @@ $(document).ready(function () {
     });
     $('a.box').on('click', popup);
     $('a.close').on('click', closeCurrent);
- 
+    $("#beet-shack-quiz").submit(function(e){
+        e.preventDefault();
+    });
+
 });
 
 function popup() {
@@ -42,6 +45,11 @@ var whack = {
     }
 
 };
+
+function saveForm() {
+    $(".beetshack-quiz").fadeOut();
+    $('.content-success').fadeIn();
+}
 
 
 function playSound(audioFile) {

@@ -35,6 +35,23 @@ a.box:hover {
 #big-backyard-interactive {
   width: 80%;
 }
+.fifth a img {
+  cursor: pointer;
+}
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 0px;
+  appearance: value;
+  height: 48px;
+  width: 148px;
+  background-color: #565a5c;
+  margin-top: 16px;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-left: 8px;
+  color: white;
+}
 .popup-modal {
   display: none;
   width: 80%;
@@ -47,6 +64,14 @@ a.box:hover {
   margin: auto auto;
   z-index: 1000;
   border: none;
+}
+.beetshack-quiz {
+  margin-left: 450px;
+}
+.content-success {
+  margin-left: 450px;
+  display: none;
+  font-weight: bold;
 }
 img#whackRegion {
   cursor: crosshair;
@@ -74,14 +99,16 @@ img#whackRegion {
 }
 a.close {
   font-weight: bold;
-  font-size: 4em;
+  font-size: 2em;
+  line-height: 1em;
+  font-family: oswaldbook;
   color: white;
-  text-decoration: underline;
   display: block;
   text-align: center;
 }
 a.close:hover {
-  color: red;
+  text-decoration: underline;
+  cursor: hand;
 }
 svg > * {
   cursor: pointer;
