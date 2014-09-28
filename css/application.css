@@ -29,6 +29,12 @@ a.box:hover {
   display: none;
   cursor: pointer;
 }
+.fifth img {
+  width: 100%;
+}
+#big-backyard-interactive {
+  width: 80%;
+}
 .popup-modal {
   display: none;
   width: 80%;
