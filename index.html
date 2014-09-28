@@ -197,12 +197,15 @@
                     <div id="mud-wagon-content">
                         <h3>Pack your wagon!</h3>
                         <div id="mud-wagon-game" class="mudwagon">
+                            <span>Stuff</span>
                             <div id="mudwagon-slider-1" class="slider">
 
                             </div>
+                            <span>Moar Stuff</span>
                             <div id="mudwagon-slider-2" class="slider">
 
                             </div>
+                            <span>Stuffier</span>
                             <div id="mudwagon-slider-3" class="slider">
 
                             </div>
@@ -225,17 +228,19 @@
                 <p>A bit of text about how beets are super important to the region. Also probably something about the Beet Shack in the museum itself, and how if you want to learn more and/or pass the quiz, you should actually go in and check it out. Lorem ipsum: There are fixed points throughout time where things must stay exactly the way they are. This is not one of them. This is an opportunity! Whatever happens here will create its own timeline, its own reality, a temporal tipping point. The future revolves around you, here, now, so do good!</p>
                 <div id="beet-shack-content" class="popup-content">
                     <h3>Test your knowledge of beets' yummy history</h3>
-                    <form id="beet-shack-quiz">
-                        <p>What country did most of the migrant workers come from during the sugar beet boom of the early 1900s?</p>
-                        <input type="radio" name="migration" value="France" id="migration-France" /><label for="migration-France">France</label><br />
-                        <input type="radio" name="migration" value="Russia" id="migration-Russia"/><label for="migration-Russia">Russia (pick this one)</label><br />
-                        <input type="radio" name="migration" value="Chile" id="migration-Chile" /><label for="migration-Chile">Chile</label><br />
-                        <input type="radio" name="migration" value="China" id="migration-China" /><label for="migration-China">China</label><br />
-                        <p>Beats are heavy.</p>
-                        <input type="radio" name="heavy" value="True" id="heavy-True" /><label for="heavy-True">True (pick this one)</label><br />
-                        <input type="radio" name="heavy" value="False" id="heavy-False" /><label for="heavy-False">False</label>
-                    <button>submit &gt;&gt;</button>
-</form>
+                    <div>
+                        <form id="beet-shack-quiz">
+                            <p>What country did most of the migrant workers come from during the sugar beet boom of the early 1900s?</p>
+                            <input type="radio" name="migration" value="France" id="migration-France" /><label for="migration-France">France</label><br />
+                            <input type="radio" name="migration" value="Russia" id="migration-Russia"/><label for="migration-Russia">Russia (pick this one)</label><br />
+                            <input type="radio" name="migration" value="Chile" id="migration-Chile" /><label for="migration-Chile">Chile</label><br />
+                            <input type="radio" name="migration" value="China" id="migration-China" /><label for="migration-China">China</label><br />
+                            <p>Beats are heavy.</p>
+                            <input type="radio" name="heavy" value="True" id="heavy-True" /><label for="heavy-True">True (pick this one)</label><br />
+                            <input type="radio" name="heavy" value="False" id="heavy-False" /><label for="heavy-False">False</label>
+                            <button>submit &gt;&gt;</button>
+                        </form>
+                    </div>
                     <div class="content-success">Good job!</div>
                 </div>
             </div>
@@ -252,10 +257,10 @@
                     <h2>Big Backyard</h2>
                     <p>Some text about what the Big Backyard is, and about how you can click on the critters to hear the noises they make. Lorem ipsum: Yes, well, it's a brilliant noise. I love that noise. Frightened people. Give me a Dalek any day. Come along, Pond! Overconfidence, this, and a small screwdriver. I’m absolutely sorted.Oh, I always rip out the last page of a book. Then it doesn't have to end. I hate endings!</p>
                     <div id="big-backyard-content" class="popup-content">
-                        <div style="float: left; border:1px solid red;">
+                        <div>
                             <h3>Hear the critters of the area</h3>
                         </div>
-                        <div id="big-backyard-interactive" style="float:right; clear:both; border:1px solid blue;">
+                        <div id="big-backyard-interactive" style="float:right; clear:both;">
                             <div class="fifth"><a onclick="playSound('audio/backyard-bluejay.mp3');"><img src="img/backyard-bluejay.jpg" alt="" /><span>Blue jay</span></a></div>
                             <div class="fifth"><a onclick="playSound('audio/backyard-broadwingedhawk.mp3');"><img src="img/backyard-broadwingedhawk.jpg" alt="" /><span>Broadwinged hawk</span></a></div>
                             <div class="fifth"><a onclick="playSound('audio/backyard-chipmunk.mp3');"><img src="img/backyard-chipmunk.jpg" alt="" /><span>Chipmunk</span></a></div>
